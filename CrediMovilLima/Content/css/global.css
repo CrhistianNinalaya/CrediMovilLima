@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.bg-morado {
+    background-color: rgb(139, 30, 141);
+}
+
+.bg-morado-oscuro {
+    background-color: rgb(106, 43, 134);
+}
+
+.bg-verde {
+    background-color: rgb(1, 190, 98);
+}
+
+.bg-verde-oscuro {
+    background-color: rgb(2, 123, 115);
+}
+
+/* ----------------------------------- */
+
+.text-morado {
+    color: rgb(139, 30, 141);
+}
+
+.text-morado-oscuro {
+    color: rgb(106, 43, 134);
+}
+
+.text-verde {
+    color: rgb(1, 190, 98);
+}
+
+.text-verde-oscuro {
+    color: rgb(2, 123, 115);
+}
+/* header */
+
+/* nav */
+.item {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}

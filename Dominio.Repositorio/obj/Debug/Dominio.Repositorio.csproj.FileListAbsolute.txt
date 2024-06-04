@@ -1,0 +1,6 @@
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\bin\Debug\Dominio.Repositorio.dll
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\bin\Debug\Dominio.Repositorio.pdb
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\obj\Debug\Dominio.Repositorio.csproj.AssemblyReference.cache
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\obj\Debug\Dominio.Repositorio.csproj.CoreCompileInputs.cache
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\obj\Debug\Dominio.Repositorio.dll
+D:\Proyectos\CrediMovilLima\Dominio.Repositorio\obj\Debug\Dominio.Repositorio.pdb
