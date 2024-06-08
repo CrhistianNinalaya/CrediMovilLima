@@ -1,9 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.9.34723.18
+VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrediMovilLima", "CrediMovilLima\CrediMovilLima.csproj", "{36321EFD-A709-40A4-9F6D-EE6B681883F2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UserInterface", "1.UserInterface", "{C0DF2CD7-3CF3-4E07-BE2F-C22B8FB1BCF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Aplicacion", "2.Aplicacion", "{E882BAE4-EAFC-49A6-9C54-23524091C0F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Dominio", "3.Dominio", "{D717CD45-1083-474C-A72E-2D15BF54D4EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infraestructura", "4.Infraestructura", "{4F5C28FD-A2A5-4CBD-B812-82BFAA738481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{AF8B3F01-3AAF-45B6-BE3F-BCDFC8D0B5C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrediMovilLima", "CrediMovilLima\CrediMovilLima.csproj", "{302C88ED-B1AF-43A6-A960-C484A1968B55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidad", "Entidad", "{7C9AE291-E62B-453B-B84F-E81BF126DA57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{68EE5AB6-789E-499C-9514-DB4B8951F41A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B5EA5820-3CD4-4656-8A4E-39C10D38BF3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Entidad.CrediMovil", "Dominio.Entidad.CrediMovil\Dominio.Entidad.CrediMovil.csproj", "{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio.Repositorio", "Dominio.Repositorio\Dominio.Repositorio.csproj", "{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructura.Data.CrediMovilLima", "Infraestructura.Data.CrediMovilLima\Infraestructura.Data.CrediMovilLima.csproj", "{6F046F2B-0DA7-47A3-949B-B448CF301872}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +33,37 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{36321EFD-A709-40A4-9F6D-EE6B681883F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{36321EFD-A709-40A4-9F6D-EE6B681883F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{36321EFD-A709-40A4-9F6D-EE6B681883F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{36321EFD-A709-40A4-9F6D-EE6B681883F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{302C88ED-B1AF-43A6-A960-C484A1968B55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{302C88ED-B1AF-43A6-A960-C484A1968B55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{302C88ED-B1AF-43A6-A960-C484A1968B55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{302C88ED-B1AF-43A6-A960-C484A1968B55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F046F2B-0DA7-47A3-949B-B448CF301872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F046F2B-0DA7-47A3-949B-B448CF301872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F046F2B-0DA7-47A3-949B-B448CF301872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F046F2B-0DA7-47A3-949B-B448CF301872}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF8B3F01-3AAF-45B6-BE3F-BCDFC8D0B5C7} = {C0DF2CD7-3CF3-4E07-BE2F-C22B8FB1BCF0}
+		{302C88ED-B1AF-43A6-A960-C484A1968B55} = {AF8B3F01-3AAF-45B6-BE3F-BCDFC8D0B5C7}
+		{7C9AE291-E62B-453B-B84F-E81BF126DA57} = {D717CD45-1083-474C-A72E-2D15BF54D4EE}
+		{68EE5AB6-789E-499C-9514-DB4B8951F41A} = {D717CD45-1083-474C-A72E-2D15BF54D4EE}
+		{B5EA5820-3CD4-4656-8A4E-39C10D38BF3F} = {4F5C28FD-A2A5-4CBD-B812-82BFAA738481}
+		{CF05CE88-9AB9-4EEE-A783-9F7FE27FCA8F} = {7C9AE291-E62B-453B-B84F-E81BF126DA57}
+		{C8B6D1C1-CD1C-4C55-8519-1E2EE0C75F57} = {68EE5AB6-789E-499C-9514-DB4B8951F41A}
+		{6F046F2B-0DA7-47A3-949B-B448CF301872} = {B5EA5820-3CD4-4656-8A4E-39C10D38BF3F}
+	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {60535637-1FAA-409B-B7DC-14D08C9E1B3B}
+		SolutionGuid = {30CFE123-55CA-4881-B60D-E664ACFB43BC}
 	EndGlobalSection
 EndGlobal

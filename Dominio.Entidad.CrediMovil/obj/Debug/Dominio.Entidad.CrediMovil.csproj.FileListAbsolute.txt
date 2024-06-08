@@ -1,0 +1,9 @@
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\bin\Debug\Dominio.Entidad.CrediMovil.dll
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\bin\Debug\Dominio.Entidad.CrediMovil.pdb
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\bin\Debug\Dominio.Repositorio.dll
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\bin\Debug\Dominio.Repositorio.pdb
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\obj\Debug\Dominio.Entidad.CrediMovil.csproj.AssemblyReference.cache
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\obj\Debug\Dominio.Entidad.CrediMovil.csproj.CoreCompileInputs.cache
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\obj\Debug\Dominio..712C8243.Up2Date
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\obj\Debug\Dominio.Entidad.CrediMovil.dll
+D:\Proyectos\CrediMovilLima\Dominio.Entidad.CrediMovil\obj\Debug\Dominio.Entidad.CrediMovil.pdb

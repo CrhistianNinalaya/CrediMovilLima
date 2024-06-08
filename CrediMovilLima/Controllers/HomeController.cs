@@ -26,5 +26,10 @@ namespace CrediMovilLima.Controllers
 
             return View();
         }
+
+        public ActionResult Prueba()
+        {
+            return View();
+        }
     }
 }
