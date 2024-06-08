@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banca Movil</title>   
+    <link rel="stylesheet" href="css/bancaMovil.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="">hola</a>
+        </nav>
+    </header>
+    <aside>
+<!--     style="width: 500px; height: 500px;" -->
+		<div id=photo>
+        	<img src="imagenes/munieca-formulario-banco.png" alt="chica-tarjeta">	
+		</div>
+    </aside>
+    <section>
+        <div id="form-count"> 
+            <div class="form-data">
+                <select name="" id="">
+                    <option value="dni">DNI</option>
+                    <option value="ce">CE</option>
+                    <option value="pas">PAS</option>
+                </select>
+                <input id=nrdoc type="text" inputmode="numeric" placeholder="Nro de documento">                
+            </div>
+            <div class="form-data">
+                <input id=nrtarjeta type="text" inputmode="numeric" placeholder="Nro de tarjeta">                
+            </div>
+            <div class="form-data">
+                <input id="digitos" name="clave-6-digitos" type="text" inputmode="numeric" placeholder="Clave de 6 digitos" readonly>            
+                <!--readonly es para convertir el INPUT en solo lectura, asi con el JS hacemos que se escriba lo del teclado creado en js tambien-->
+            </div>
+            <button> Ingresar</button>
+            <button> Cancelar</button>
+
+        </div>
+    </section>
+</body>
+</html>
+<script src="js/bancaMovil.js"></script>
